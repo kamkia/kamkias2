@@ -17,8 +17,8 @@ void gwiazdki ()
 
 int main()
 {
-    int znak;
-    std::cout << gwiazdki(znak);
+    
+    std::cout << gwiazdki();
 
     return 0;
 }
