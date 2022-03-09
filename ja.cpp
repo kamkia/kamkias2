@@ -5,20 +5,15 @@ using namespace std;
 void gwiazdki ()
 {
     int znak;
-    std::cout << "wpisz znak z klawiatury" << std::endl;
-    std::cin >> znak;
+    cout << "wpisz znak z klawiatury" << endl;
+    cin >> znak;
     
-        for (int i=0; i<10; i++)
-        
-    
-        cout << znak << std::endl;
+    for (int i=0; i<10; i++)
+        cout << znak << endl;
         
 }
 
-int main()
-{
-    
-    std::cout << gwiazdki();
-
+int main() {
+    gwiazdki();
     return 0;
 }
